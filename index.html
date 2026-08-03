@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="pl"><head><meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rejestr opłat najmu</title><style>
+body{font-family:Georgia,'Times New Roman',serif;max-width:860px;margin:2em auto;
+padding:0 1em;color:#222;line-height:1.5}
+h1{font-size:1.4em}h2{font-size:1.1em;margin-top:1.6em}
+table{border-collapse:collapse;width:100%;font-size:.92em}
+th,td{border:1px solid #ccc;padding:.35em .5em;text-align:left}
+th{background:#f2f2f2}td.num,th.num{text-align:right}
+.ok{color:#0a7a2f}.warn{color:#b35c00}.muted{color:#888;font-size:.85em}
+.mono{font-family:Menlo,monospace;font-size:.8em;color:#666}
+footer{margin-top:2.5em;font-size:.85em;color:#666;border-top:1px solid #ddd;padding-top:1em}
+</style></head><body>
+<h1>Rejestr opłat najmu</h1>
+<p>Czynsz najmu (aktualna stawka): <b>2 750,00 zł/mies.</b>
+<span class="muted">(od 2025-03-01, umowa najmu z dnia 03.02.2025, §3 ust. 1a)</span><br>
+Termin płatności: do 15. dnia miesiąca · Stan: <span class="ok">✓ łańcuch wpisów nienaruszony</span>
+<span class="muted">· wygenerowano 2026-08-03 13:01</span></p>
+<h2>Podsumowanie miesięczne</h2><table><tr><th>Miesiąc</th><th class=num>Naliczono</th><th class=num>Zapłacono</th><th class=num>Saldo</th><th>Status</th></tr>
+<tr><td>2025-03</td><td class=num>—</td><td class=num>2 750,00</td><td class=num>—</td><td><span class="ok">✓ opłacono</span></td></tr>
+</table>
+<p>Kaucja: <b>2 500,00 zł</b> <span class="muted">(wpłacona 2025-02-03)</span></p>
+<h2>Wszystkie wpisy</h2><table><tr><th>#</th><th>Typ</th><th>Data</th><th>Okres</th><th class=num>Czynsz</th><th class=num>Opłaty</th><th class=num>Razem</th><th>Dokument</th><th>Suma kontrolna</th></tr>
+<tr><td>1</td><td>umowa</td><td>2025-02-03</td><td>-</td><td class=num>—</td><td class=num>—</td><td class=num><b>—</b></td><td>Dogovor (umowa) <span class="mono">9d03b7153e15…</span></td><td class="mono">ae32bb4295e4…</td></tr>
+<tr><td>2</td><td>wpłata</td><td>2025-02-03</td><td>2025-03</td><td class=num>2 750,00</td><td class=num>—</td><td class=num><b>2 750,00</b></td><td><span class="warn">bez dokumentu źródłowego</span></td><td class="mono">3c36a6aab615…</td></tr>
+<tr><td>3</td><td>wpłata</td><td>2025-02-03</td><td>-</td><td class=num>—</td><td class=num>—</td><td class=num><b>2 500,00</b></td><td><span class="warn">bez dokumentu źródłowego</span></td><td class="mono">84f384c91b46…</td></tr>
+<tr><td>4</td><td>aneks/dokument</td><td>2026-07-28</td><td>-</td><td class=num>—</td><td class=num>—</td><td class=num><b>—</b></td><td>Dogovor (aneks) <span class="mono">1cabcb32b266…</span></td><td class="mono">ad9e69a83ed0…</td></tr>
+</table>
+<footer><b>Jak działa ten rejestr:</b> Każdy wpis w rejestrze zawiera sumę kontrolną (SHA-256) poprzedniego wpisu — wpisy tworzą łańcuch. Zmiana jakiegokolwiek historycznego wpisu przerywa łańcuch i jest natychmiast wykrywalna. Rejestr prowadzony jest w systemie kontroli wersji, więc historia zmian również jest zachowana.</footer></body></html>
